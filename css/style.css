@@ -65,6 +65,15 @@ button.btn {
   background-color: #fff;
   transition: all 0.3s ease;
 }
+button.white {
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.3em;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease;
+  background-color: transparent;
+}
 .section-p1 {
   padding: 40px 80px;
 }
@@ -335,3 +344,50 @@ nav {
   background-color: #088178;
 }
 /* End Banner Section */
+
+/* Start Advertisment Banner Section */
+.advertise-banner-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.advertise-box {
+  height: 50vh;
+  display: flex;
+  padding: 30px;
+  min-width: 580px;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/banner/banner17.jpg");
+}
+.advertise-box2 {
+  background-image: url("../images/banner/banner10.jpg");
+}
+.advertise-box h4 {
+  color: #fff;
+  font-size: 2em;
+  font-weight: 300;
+}
+.advertise-box h2 {
+  color: #fff;
+  font-weight: 700;
+}
+.advertise-box span {
+  color: #fff;
+  font-size: 1.4em;
+  margin: 0px 0px 15px;
+}
+.advertise-box button {
+  font-size: 1.4em;
+  margin-top: 20px;
+  padding: 10px 40px;
+  border: 2px solid #fff;
+}
+.advertise-box button:hover {
+  border: 2px solid #737070;
+}
+/* End Advertisment Banner Section */
